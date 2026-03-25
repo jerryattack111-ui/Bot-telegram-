@@ -31,7 +31,7 @@ logger = logging.getLogger(__name__)
 # ─────────────────────────────────────────────
 # CONFIGURATION  (កំណត់នៅទីនេះ ឬប្រើ .env)
 # ─────────────────────────────────────────────
-BOT_TOKEN        = os.getenv("BOT_TOKEN",        "PUT_YOUR_BOT_TOKEN_HERE")
+BOT_TOKEN        = os.getenv("BOT_TOKEN",        "8241979149:AAHgcPjvR5tmkGfQmzqqu-H0_Fd_svwgJDk")
 ANTHROPIC_KEY    = os.getenv("ANTHROPIC_API_KEY", "PUT_YOUR_ANTHROPIC_KEY_HERE")
 OWNER_ID         = int(os.getenv("OWNER_ID",      "0"))   # Telegram user ID របស់អ្នកបង្កើត
 SETTINGS_FILE    = "settings.json"
